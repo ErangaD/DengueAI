@@ -55,6 +55,3 @@ predictions = rf.predict(test_features)
 results = [round(x) for x in list(predictions)]
 for i in results:
     print(i)
-
-
-
